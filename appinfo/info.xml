@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>talkwidget</id>
+	<name>Talk Widget</name>
+	<summary>talk widget</summary>
+	<description>xyz</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="bb@gmail.com" homepage="">Binary brains</author>
+	<namespace>TalkWidget</namespace>
+	<category>tools</category>
+	<bugs>https://apps.nextcloud.com/developer/apps/generate</bugs>
+	<dependencies>
+		<nextcloud min-version="30" max-version="32"/>
+	</dependencies>
+	
+</info>
