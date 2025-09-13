@@ -65,52 +65,7 @@ Advanced (Time Permitting):
 -	Inline previews for links and images.
 Example Use Case:  A developer can check a message, send a quick reply, and continue tracking tasks—all without leaving the Dashboard.
 
-6.File Structure
-nextclou/server/
-apps/talkwidget/
-├── appinfo/
-│   ├── info.xml
-│   └── routes.php
-├── css/
-│   └── dashboard.css
-├── img/
-│   ├── app-dark.svg
-│   └── app.svg
-├── js/
-│   ├── talkwidget-dashboardTalk.mjs
-│   └── talkwidget-dashboardTalk.mjs.map
-├── lib/
-│   ├── AppInfo/
-│   │   └── Application.php
-│   ├── Controller/
-│   │   ├── ApiController.php
-│   │   └── PageController.php
-│   ├── Dashboard/
-│   │   └── TalkWidget.php
-│   └── Service/
-│       └── TalkService.php
-├── node_modules/        # (frontend deps, optional in repo)
-├── src/                 # (probably your JS/TS source before bundling)
-├── templates/
-│   └── index.php
-├── .github/             # (actions/ci configs)
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── LICENSE
-├── README.md
-├── composer.json
-├── package.json
-├── package-lock.json 
-├── vite.config.js
-├── stylelint.config.cjs
-├── rector.php
-├── psalm.xml
-├── openapi.json
-└── ... (other dev configs)
-
-
-
-7.Widget Setup
+6.Widget Setup
 Prepare the app skeleton 
   •	Go to the app skeleton generator and generate an app or take the this file put it in the nextcloud/server/apps.
 Implement and register the dashboard widget
